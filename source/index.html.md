@@ -8,8 +8,8 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - javascript
 
 toc_footers:
-  - <a href='#'>Sign Up for a Developer Key</a>
-  - <a href='https://github.com/tripit/slate'>Documentation Powered by Slate</a>
+  - <a href="http://www.ci4cc.org/">CI4CC</a>
+  - <a href="https://forteresearch.com">Forte</a>
 
 includes:
   - errors
