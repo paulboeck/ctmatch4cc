@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker run --rm \
+docker-compose run \
   -v $PWD:/usr/src/app/source \
   -w /usr/src/app/source \
-  slate_app bundle exec middleman build --clean
+  app bundle exec middleman build --clean
