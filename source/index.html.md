@@ -26,7 +26,7 @@ This is the API documentation for the [CTmatch4CC Initiative](http://www.ci4cc.o
 The CTmatch4CC endpoint is a public endpoint, so no further authorization is needed to access the registry data. Individual servers may rate-limit requests, so clients should check and react to an HTTP 429 status (Too Many Requests) response from the server.
 
 
-# Patients
+## Patients
 
 ```shell
 curl "http://example.com/api/patients"
@@ -62,11 +62,11 @@ let kittens = api.kittens.get();
 
 The main endpoint to retrieve subject counts for a given set of query parameters.
 
-## HTTP Request
+### HTTP Request
 
 `GET http://example.com/api/patients`
 
-## Query Parameters
+### Query Parameters
 
 Parameter | Required | Description
 --------- | ------- | -----------
